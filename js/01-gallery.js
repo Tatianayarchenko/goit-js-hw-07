@@ -43,9 +43,9 @@ function onGalleryContainerClick(e) {
   const largeImage = e.target.dataset.source;
   console.log(largeImage);
 
-  //   const instance = basicLightbox.create(`
-  //     <img src="${largeImage}">
-  // `);
+  const instance = basicLightbox.create(`
+      <img src="${largeImage}">
+  `);
 
-  //   instance.show();
+  instance.show();
 }

@@ -26,8 +26,6 @@ function onGalleryContainerClick(e) {
   if (!isGalleryImageEl) {
     return;
   }
-
-  console.log(isGalleryImageEl);
   e.preventDefault();
 
   const lightbox = new SimpleLightbox(".gallery a", {
