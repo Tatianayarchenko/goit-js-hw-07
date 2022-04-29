@@ -26,7 +26,7 @@ function createGalleryItemsMarkup(galleryItems) {
         alt="${description}"
       />
     </a>
-  </div>;
+  </div>
   `;
     })
     .join("");
